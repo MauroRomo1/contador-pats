@@ -24,14 +24,14 @@ const Contador = () => {
           variant="primary"
           onClick={() => restarContador()}
         >
-          -1
+          - 1
         </Button>
         <Button
           className="btn-contador"
           variant="primary"
           onClick={() => sumarContador()}
         >
-          +1
+          + 1
         </Button>
       </div>
     </section>
