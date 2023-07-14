@@ -1,18 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container } from "react-bootstrap";
-import "./App.css";
 
+import { Container } from "react-bootstrap";
 import Titulos from "./components/Titulos";
 import Contador from "./components/Contador";
 
+import catPat from "./assets/cat-pat.gif";
+
 function App() {
-  const estado = true;
   return (
     <Container>
-      <Titulos
-        subtitulo="Este subtitulo fue creado con props"
-        estado={estado}
-      />
+      <Titulos titulo="Contador de pats al gato" />
+      <img src={catPat} alt="" className="mx-auto d-block" />
       <Contador />
     </Container>
   );
