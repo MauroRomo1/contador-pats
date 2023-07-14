@@ -1,4 +1,9 @@
 body {
-  background-color: #252525;
+  background-color: #806491;
   color: #fff;
+}
+
+.btn-contador {
+  background-color: #02315e;
+  border-color: transparent;
 }
